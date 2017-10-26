@@ -17,6 +17,7 @@
 .side-bar-top {
   background-color: rgba(77,168,184,1);
   height: 500px;
+  border-bottom: 2px solid #fff;
 }
 .side-bar ul {
   margin: 0;
