@@ -1,0 +1,87 @@
+.tab {
+  padding: 2px 12px 12px 22px;
+}
+.tab button {
+  background-color: #fff;
+  color: #999;
+  border-color: rgba(246,130,89,1);
+  width: 40px;
+}
+.tab .tab-button-left {
+  border-right: none;
+}
+.tab button:hover,
+.tab button:focus {
+  background-color: #fff;
+  color: #999;
+  border-color: rgba(246,130,89,1);
+}
+.tab button:active {
+  background-color: #fff;
+  color: rgba(246,130,89,1);
+  border-color: rgba(246,130,89,1);
+}
+.board {
+  padding: 0 12px 0 22px;
+}
+.board .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+  text-align: center;
+}
+.board .text-box {
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px 0px #d6d6d6;
+  margin: 10px 30px 30px 30px;
+  padding: 5px 10px;
+  color: #555;
+}
+.board .text-box .red-bar {
+  position: relative;
+  float: left;
+  top: -3px;
+  left: -8px;
+  width: 8px;
+  height: 93px;
+  background-color: rgba(204,17,43,1);
+  border-radius: 5px;
+}
+.board .text-box .yellow-bar {
+  position: relative;
+  float: left;
+  top: -3px;
+  left: -8px;
+  width: 8px;
+  height: 93px;
+  background-color: rgba(246,227,77,1);
+  border-radius: 5px;
+}
+.board .text-box p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.board .text-box span {
+  font-size: 14px;
+}
+.board .text-box i {
+  margin-right: 5px;
+  color: rgba(246,130,89,1);
+}
+.board .text-box .icon-number {
+  margin-right: 25px;
+}
+.board .text-box:hover {
+  cursor: pointer;
+}
+.board .today-list {
+  background: linear-gradient(rgba(81,168,183,1), rgba(191,209,212,1));
+  margin: 10px 30px 30px 30px;
+  padding: 30px 20px 380px 20px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}

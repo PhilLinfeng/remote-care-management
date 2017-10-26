@@ -1,0 +1,60 @@
+.nav-bar {
+  background-color: rgba(25,121,137,1);
+  padding: 10px 10px 10px 10px;
+}
+.nav-bar span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-bar .ui-inputgroup input {
+  width: 100%;
+}
+.side-bar {
+  padding: 0;
+  width: 170px;
+}
+.side-bar-top {
+  background-color: rgba(77,168,184,1);
+  height: 500px;
+}
+.side-bar ul {
+  margin: 0;
+  padding-left: 0;
+}
+.side-bar i {
+  color: white;
+  padding-right: 10px;
+}
+.side-bar li {
+  list-style: none;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.side-bar-top li {
+  color: white;
+}
+.side-bar-top li:hover {
+  background-color: rgba(246,130,89,1);
+  cursor: pointer;
+}
+.side-bar-bottom li {
+  background-color: rgba(129,218,235,1);
+}
+.side-bar-bottom li:hover {
+  background-color: rgba(25,121,137,1);
+  cursor: pointer;
+}
+.logo {
+  height: 60px;
+  width: 80px;
+  background-color: #999;
+  position: relative;
+  top: 250px;
+  left: 40px;
+}
+.container {
+  margin: auto;
+}
